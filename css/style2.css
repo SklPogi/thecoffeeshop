@@ -1,0 +1,133 @@
+body, html {
+  height:100%;
+  margin: 0;
+  font-size:16px;
+  font: Minion Pro Cond;
+  font-weight:400;
+  line-height:1.8em;
+  color:#666;
+  background-image: url(../images/Background.jpg);
+  background-size: cover;
+
+}
+a {
+	text-decoration: none;
+	
+}
+#main-menu {
+	list-style: none;
+	display: grid;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	list-style: none;
+	grid-gap: 5px;
+	grid-template-columns: 4fr 2fr 2fr 2fr 2fr 2fr;
+	margin-bottom: 10px;
+	
+
+}
+.button {
+	font-size: 30px;
+	color: white;
+	padding: 20px 30px;
+	text-align: center;
+	margin-top: 50px;
+	margin-left: 10px;
+	margin-right: 20px;
+	font-family: Minion Pro Cond;
+}
+.button2 {
+	font-size: 30px;
+	color: white;
+	padding: 20px 30px;
+	text-align: center;
+	text-align: center;
+	font-family: Minion Pro Cond;
+	margin-left: 50px;
+}
+	
+.button:hover {
+	color: red;
+}
+.button2:hover {
+	background: black;
+}
+#main-menu img{
+	position: center;
+	margin-left: 50px;
+	
+}
+
+.pimg1 {
+	position: relative;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;  
+	z-index: 0;
+}
+.article-left {
+	text-shadow: 0 0 10px black;
+	text-align: center;
+}
+.second-column p {
+	margin-top: 50px;
+	margin-bottom: 107px;
+	text-align: justify;
+	
+}
+.article-right {
+	background-image: url(../images/ko.jpg);
+	background-size: cover;
+	padding: 50px;
+	text-shadow: 0 0 10px black;
+	text-align: justify;
+	margin-right: 35px;
+}
+.article-right p {
+	margin-bottom: 50px;
+	margin-top: 46px;
+	color: white;
+	font-family: Minion Pro Cond;
+	font-size: 30px;
+}
+.article-right h2 {
+	color: white;
+	font-family: Minion Pro Cond;
+	text-align: center;
+	font-size: 40px;
+	line-height: 50px;
+}
+.main-article {
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: 2fr 1fr;
+	margin-right: 50px;
+}
+
+
+
+.pimg1 {
+	min-height: 100%;
+	background-image: url(../images/Coffee.jpg);
+}
+
+.ptext {
+  position:absolute;
+  top:50%;
+  width:100%;
+  text-align:center;
+  color:#fff;
+  font-size:100px;
+  letter-spacing:9px;
+  text-transform:uppercase;
+}
+
+.border {
+	padding: 100px;
+}
+
+section {
+	padding: 80px 50px;
+}
